@@ -4,13 +4,13 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using ufoapi.Models;
+using ufoapi.Entities;
 
 namespace ufoapi.Migrations
 {
     [DbContext(typeof(SightingContext))]
-    [Migration("20200927004439_Initial")]
-    partial class Initial
+    [Migration("20200927175057_InitialMigration")]
+    partial class InitialMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -18,7 +18,7 @@ namespace ufoapi.Migrations
             modelBuilder
                 .HasAnnotation("ProductVersion", "3.1.8");
 
-            modelBuilder.Entity("ufoapi.Models.Sighting", b =>
+            modelBuilder.Entity("ufoapi.Entities.Sighting", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()

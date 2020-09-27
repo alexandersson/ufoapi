@@ -5,7 +5,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using ufoapi.Data.EFCore;
-using ufoapi.Models;
+using ufoapi.Entities;
 
 namespace ufoapi
 {

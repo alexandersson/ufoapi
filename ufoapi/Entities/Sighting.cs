@@ -2,7 +2,7 @@
 using System;
 using ufoapi.Data;
 
-namespace ufoapi.Models
+namespace ufoapi.Entities
 {
     public class SightingContext : DbContext
     {

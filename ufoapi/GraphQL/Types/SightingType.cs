@@ -1,5 +1,5 @@
 ﻿using GraphQL.Types;
-using ufoapi.Models;
+using ufoapi.Entities;
 
 namespace ufoapi.GraphQL.Types
 {

@@ -3,7 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using ufoapi.Models;
+using ufoapi.Entities;
 
 namespace ufoapi.Migrations
 {
@@ -16,7 +16,7 @@ namespace ufoapi.Migrations
             modelBuilder
                 .HasAnnotation("ProductVersion", "3.1.8");
 
-            modelBuilder.Entity("ufoapi.Models.Sighting", b =>
+            modelBuilder.Entity("ufoapi.Entities.Sighting", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
