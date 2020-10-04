@@ -1,0 +1,9 @@
+{
+  "name": "ufoapi.client",
+  "version": "0.0.0",
+  "description": "ufoapi.client",
+  "main": "server.js",
+  "author": {
+    "name": ""
+  }
+}
